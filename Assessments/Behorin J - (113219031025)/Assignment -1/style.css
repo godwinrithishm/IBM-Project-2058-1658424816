@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #faf7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    height: 1150px;
+    width: 800px;
+    background-color: white;
+    box-shadow: 5px 7px 15px 5px #b9b6b6;
+    margin: 20px auto;
+    
+}
+
+.topside{
+    background-color: #dc495a;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.profile{
+    width: 150px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.p1{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.p2{
+    font-size: 20px;
+    color: white;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.button1{
+    font-size: 15px;
+    width:140px;
+    height:50px;
+    padding: 5px;
+    margin: 10px 5px;
+    color:#000;
+    border-color:#fff;
+    text-decoration: none;
+    border-radius: 10px;
+    background:#fff;
+}
+
+.button2{
+    font-size: 15px;
+    width:140px;
+    height:50px;
+    padding: 5px;
+    margin: 10px 5px;
+    color: #fff;
+    border-color: #37BC9B;
+    text-decoration: none;
+    border-radius: 10px;
+    background: #37BC9B;
+}
+
+.bottomside{
+    text-align: justify;
+    padding: 40px;
+    color: rgb(73, 73, 73);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bottomside .leftone{
+    padding: 20px;
+}
+
+.heading{
+    color: #000;
+
+}
+
+.bottomside .rightone{
+    padding: 20px;
+}
+
+.rightone ul li{
+    position: relative;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+hr{
+   background: #F6F8FA;
+}
+
+.heading1{
+    text-align: justify;
+    padding: 60px 60px 0px;
+    margin-bottom: 10px;
+}
+.downline{
+    text-align: justify;
+    padding: 20px 60px;
+    color: rgb(73, 73, 73);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.downline ul li{
+    position: relative;
+    list-style: none;
+}
+
+.downline .percent{
+    position: relative;
+    width: 95%;
+    height: 15px;
+    background: #EBEDF0;
+}
+
+.downline .column1 .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #4989DC;
+}
+
+.downline .column2 .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #37BC9B;
+}
+
